@@ -1,0 +1,151 @@
+//before bootstrap
+
+$primary: #0896A6;
+$secondary: #08A64C;
+$success: #213133;
+
+
+// bootstrop
+@import "bootstrap/scss/bootstrap.scss";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+
+//after bootstrap
+
+$gray: #646364;
+$white: white;
+
+
+.wendy-one-regular {
+    font-family: "Wendy One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    background-color: #DFE5E6;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Wendy One', serif;
+    color: $success;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+.hero{
+    font-family: 'Voltaire', sans-serif;
+    background-color: rgba(6, 117, 53, 0.7);
+}
+
+.hero-img{
+    max-width: 800px;
+}
+
+.hero-form{
+    min-width: 400px;
+    color: white;
+}
+
+.howItWorks{
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.howItWorks > hr{
+    max-width: 200px;
+}
+
+.worksImgs{
+    max-width: 300px;
+}
+
+.smallText{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.bi-1-circle, .bi-2-circle, .bi-3-circle, .bi-4-circle, .bi-5-circle, .bi-6-circle{
+    color: $primary;
+    height: 50px;
+}
+
+.howItWorks-steps{
+    max-width: 80vw;
+    font-size: 2rem;
+}
+
+.advantages{
+    background-color: #A6B7BA;
+}
+
+.ad-img{
+    max-width: 500px;
+}
+
+.checks {
+    max-width: 75px;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+.testimonials{
+    text-align: center;
+}
+
+.mainPoint{
+    max-height: 1000px;
+    color: #033E44;
+    text-align: center;
+    background-color: #A6B7BA;
+}
+
+.pointText{
+    padding-top: 12rem;
+}
+
+.pointText > h1{
+    color: #033E44;
+}
+
+.pointText > button{
+    color: white;
+    font-size: 3rem;
+}
+
+.faqs{
+    text-align: center;
+}
+
+.accordion{
+    max-width: 800px;
+}
+
+.purchases{
+    text-align: center;
+    background-color: #A6B7BA;
+}
+
+.card{
+    font-size: .99rem;
+}
+
+footer{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+footer > .row > .col > img{
+    max-height: 100px;
+}
